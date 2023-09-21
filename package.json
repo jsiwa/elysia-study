@@ -1,0 +1,23 @@
+{
+  "name": "elysia",
+  "version": "1.0.50",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.43.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "bun-types": "latest",
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.2.2"
+  }
+}
